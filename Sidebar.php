@@ -26,7 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 abstract class Sidebar {
 	use Feature_Extension;
 
-	public $sidebar = '';
+	public $id = '';
 
 	protected $before_widget = '<section id="%1$s" class="widget %2$s">';
 	protected $after_widget = '</section>';
@@ -41,7 +41,7 @@ abstract class Sidebar {
 		register_sidebar(
 			[
 				'name'          => $this->name,
-				'id'            => $this->sidebar,
+				'id'            => $this->id,
 				'description'   => $this->description,
 				'before_widget' => $this->before_widget,
 				'after_widget'  => $this->after_widget,
