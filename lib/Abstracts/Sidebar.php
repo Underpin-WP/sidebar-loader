@@ -7,11 +7,11 @@
  */
 
 
-namespace Underpin_Sidebars\Abstracts;
+namespace Underpin\Sidebars\Abstracts;
 
 use Underpin\Traits\Feature_Extension;
 use Underpin\Traits\Templates;
-use function Underpin\underpin;
+
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;

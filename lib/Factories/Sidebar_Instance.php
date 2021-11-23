@@ -1,10 +1,10 @@
 <?php
 
-namespace Underpin_Sidebars\Factories;
+namespace Underpin\Sidebars\Factories;
 
 
 use Underpin\Traits\Instance_Setter;
-use Underpin_Sidebars\Abstracts\Sidebar;
+use Underpin\Sidebars\Abstracts\Sidebar;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
