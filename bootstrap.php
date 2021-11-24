@@ -8,6 +8,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Add this loader.
 Underpin::attach( 'setup', new \Underpin\Factories\Observers\Loader( 'sidebars', [
-	'instance' => 'Underpin\Sidebars\Abstracts\Sidebar',
-	'default'  => 'Underpin\Sidebars\Factories\Sidebar_Instance',
+	'abstraction_class' => 'Underpin\Sidebars\Abstracts\Sidebar',
+	'default_factory'  => 'Underpin\Sidebars\Factories\Sidebar_Instance',
 ] ) );
